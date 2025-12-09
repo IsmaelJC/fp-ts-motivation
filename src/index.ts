@@ -1,4 +1,4 @@
-import { getAllObjectsAndSumPrices } from "./motivating-example.ts";
+import { getAllObjectsAndSumPrices } from "./motivating-example/index.ts";
 
 const main = async () => {
   const ids = Array.from({ length: 20 }, (_, i) => i.toString());
