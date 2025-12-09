@@ -32,7 +32,7 @@ const chunksOf = (array: any[], size: number) => {
 
 const getObjects = async (ids: string[]) => {
   const response = await axios.get(
-    `https://api.restful-api.dev/objects?${formatQueryString(ids)}`
+    `https://api.restful-api.dev/object?${formatQueryString(ids)}`
   );
 
   return response.data;
